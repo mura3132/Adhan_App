@@ -17,27 +17,6 @@
         android:textSize="30sp"
         android:textStyle="bold" />
 
-<TextView
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="10dp"
-        android:layout_marginBottom="70dp"
-        android:text="التاريخ"
-        android:textAlignment="center"
-        android:textSize="30sp"
-        android:textStyle="bold" />
-
-<TextView
-	android:id="@+id/date_text"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="10dp"
-        android:layout_marginBottom="70dp"
-        android:text=""
-        android:textAlignment="center"
-        android:textSize="30sp"
-        android:textStyle="bold" />
-
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
@@ -50,7 +29,7 @@
             android:layout_height="wrap_content"
             android:layout_weight="0.5"
             android:text="الفجر"
-            android:textAlignment="center"
+            android:textAlignment="textStart"
             android:textDirection="rtl"
             android:textSize="22sp"
             app:layout_constraintBottom_toBottomOf="parent"
@@ -59,36 +38,7 @@
             app:layout_constraintTop_toTopOf="parent" />
 
         <TextView
-            android:id="@+id/fajr_text"
-            android:layout_width="0dp"
-            android:layout_height="wrap_content"
-            android:layout_weight="0.5"
-            android:textAlignment="center"
-            android:textSize="22sp" />
-    </LinearLayout>
-
-    <LinearLayout
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_margin="20dp"
-        android:layoutDirection="rtl"
-        android:orientation="horizontal">
-
-        <TextView
-            android:layout_width="0dp"
-            android:layout_height="wrap_content"
-            android:layout_weight="0.5"
-            android:text="الشروق"
-            android:textAlignment="center"
-            android:textDirection="rtl"
-            android:textSize="22sp"
-            app:layout_constraintBottom_toBottomOf="parent"
-            app:layout_constraintLeft_toLeftOf="parent"
-            app:layout_constraintRight_toRightOf="parent"
-            app:layout_constraintTop_toTopOf="parent" />
-
-        <TextView
-            android:id="@+id/sunrise_text"
+            android:id="@+id/fajr_view"
             android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:layout_weight="0.5"
@@ -108,12 +58,12 @@
             android:layout_height="wrap_content"
             android:layout_weight="0.5"
             android:text="الظهر"
-            android:textAlignment="center"
+            android:textAlignment="textStart"
             android:textDirection="rtl"
             android:textSize="22sp" />
 
         <TextView
-            android:id="@+id/dohr_text"
+            android:id="@+id/duhr_view"
             android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:layout_weight="0.5"
@@ -133,12 +83,12 @@
             android:layout_height="wrap_content"
             android:layout_weight="0.5"
             android:text="العصر"
-            android:textAlignment="center"
+            android:textAlignment="textStart"
             android:textDirection="rtl"
             android:textSize="22sp" />
 
         <TextView
-            android:id="@+id/asr_text"
+            android:id="@+id/asr_view"
             android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:layout_weight="0.5"
@@ -158,12 +108,12 @@
             android:layout_height="wrap_content"
             android:layout_weight="0.5"
             android:text="المغرب"
-            android:textAlignment="center"
+            android:textAlignment="textStart"
             android:textDirection="rtl"
             android:textSize="22sp" />
 
         <TextView
-            android:id="@+id/maghrib_text"
+            android:id="@+id/maghrib_view"
             android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:layout_weight="0.5"
@@ -183,12 +133,12 @@
             android:layout_height="wrap_content"
             android:layout_weight="0.5"
             android:text="العشاء"
-            android:textAlignment="center"
+            android:textAlignment="textStart"
             android:textDirection="rtl"
             android:textSize="22sp" />
 
         <TextView
-            android:id="@+id/isha_text"
+            android:id="@+id/isha_view"
             android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:layout_weight="0.5"

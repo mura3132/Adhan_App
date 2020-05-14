@@ -56,11 +56,11 @@ class MainActivity : AppCompatActivity() {
                     val maghrib = formatter.format(prayerTimes.maghrib)
                     val isha = formatter.format(prayerTimes.isha)
 
-                    fajrView.text = fajr
-                    duhrView.text = duhr
-                    asrView.text =  asr
-                    maghribView.text = maghrib
-                    ishaView.text = isha
+                    fajr_view.text = fajr
+                    duhr_view.text = duhr
+                    asr_view.text =  asr
+                    maghrib_view.text = maghrib
+                    isha_view.text = isha
 
                     savePrayerTimes(fajr, duhr, asr, maghrib, isha)
                 }
